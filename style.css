@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    background-color: #F1F3F6;
+    height: 100%;
+}
+
+.container{
+width: 70vw;
+height: 100%;
+margin-left: 15%;
+
+display: flex;
+}
+
+.right{
+    width: 65%;
+    height: 100%;
+
+    padding: 13vw 5vw;
+
+}
+.right h1{
+    font-size: 3.7vw;
+    color: #0866FF;
+    font-weight: bold;
+  cursor: default;
+}
+.right h3{
+    font-size: 1.7vw;
+    margin-top: 1vw;
+    color: #1C1E21;
+font-weight: 300;
+}
+.left{
+    width: 50%;
+    height: 100%;
+   
+   
+}
+
+.contain{
+    width: 90%;
+   border: 1px solid rgb(246, 240, 240); 
+    height: 51%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+margin-top: 8vw;
+border-radius: 10px;
+box-shadow: 0 0 80px #dadde1,
+0 0 5px #dadde1,
+0 0 8px rgb(49, 47, 47);
+
+}
+
+form{
+margin-left: 2vw;
+margin-top: 2vw;
+position: absolute;
+
+
+}
+.contain #email{
+   width: 90%;
+    height: 3.5vw;
+font-size: 1.3vw;
+
+color: #9094B6;
+font-weight: 400;
+padding: 1vw;
+
+border: none;
+cursor: text;
+border-radius: 6px;
+margin-bottom: 0.8vw;
+
+}
+.contain #email:hover{
+ border: 1px solid #0866FF;
+
+}
+.contain #pass:hover{
+    border-color: #0866FF;
+ }
+.contain #pass{
+    width: 90%;
+     height: 3.5vw;
+ font-size: 1.3vw;
+ color: #9094B6;
+ font-weight: 400;
+ padding: 1vw;
+ border-radius: 6px;
+ border: 1px solid #dadde1;
+margin-bottom: 0.8vw;
+ }
+
+ .contain #btn{
+    width: 90%;
+    height: 3vw;
+font-size: 1.5vw;
+color: #fff;
+background-color: #0866FF;
+font-weight: 550;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+margin-bottom: 0.8vw;
+
+text-align: center;
+ }
+
+ #fg{
+    text-align:center ;
+    margin-right: 4vw;
+    color: #0866FF;
+    font-weight: 300;
+    margin-top: 0.6vw;
+    cursor: pointer;
+ }
+ #fg:hover{
+    text-decoration: underline;
+ }
+
+ .div{
+    width: 80%;
+    border: 1px solid #dadde1; 
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(218, 221, 225);
+    margin-top: 1.3vw;
+    margin-left: 0.7vw;
+    display: flex;
+ }
+
+ .btn2{
+    padding: 1vw 2vw;
+    margin-top: 2.4vw;
+    margin-left: 3.8vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: #36A420;
+    color: #fff;
+ }
+
+ #footer{
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 1vw;
+ }
+
+ #footer span{
+    color: #000;
+    font-weight: 700;
+    font-size: 1vw;
+ }
+
+ span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
